@@ -2,6 +2,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import com.example.demo.SinhVien;
 import com.example.demo.SinhVienService;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -35,7 +36,7 @@ public class SinhVienTest {
             sinhVienService.suaSinhVien(null, "Le Van B", 21, 9.0f, 4, "Kinh tế");
         });
 
-        assertEquals("Sinh viên không được null", exception.getMessage());
+      Assertions.assertEquals("Sinh viên không được null", exception.getMessage());
     }
 
 
