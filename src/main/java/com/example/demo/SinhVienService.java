@@ -10,7 +10,7 @@ public class SinhVienService {
             throw new IllegalArgumentException("Tên và chuyên ngành không được để trống");
         }
 
-        sv.setTen(tenMoi);
+
         sv.setTuoi(tuoiMoi);
         sv.setDiemTrungBinh(diemMoi);
         sv.setKyHoc(kyHocMoi);
